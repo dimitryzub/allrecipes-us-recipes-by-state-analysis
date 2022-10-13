@@ -1,0 +1,25 @@
+tasks:
+  - name: Update Linux and Install other Dependencies
+    init: |
+      sudo apt-get update -y && sudo apt-get upgrade -y
+      # playwright dependencies
+      sudo apt-get install -y libnss3 libnspr4 libatk1.0-0 libatk-bridge2.0-0 libcups2 libdrm2 libxkbcommon0 libxcomposite1 libxdamage1 libxfixes3 libxrandr2 libgbm1 libatspi2.0-0 libwayland-client0
+  - name: Create VirtualEnv, Install Python Dependencies
+    init: |
+      python -m venv virtual-env
+      source source env/bin/activate
+      pip install -r requirements.txt
+github:
+  prebuilds:
+    addBadge: true
+
+vscode:
+  extensions:
+    - usernamehw.errorlens
+    - vscode-icons-team.vscode-icons
+    - bierner.markdown-preview-github-styles
+    - ms-python.python
+    - KevinRose.vsc-python-inden
+    - eamodio.gitlens
+    - Gruntfuggly.todo-tree
+    - ms-toolsai.jupyter
