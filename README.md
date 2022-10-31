@@ -53,6 +53,4 @@ Every recipes from all states has been collected.
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://github.com/dimitryzub/us-recipes-analysis-by-state)
 
-[![Binder](https://mybinder.org/badge_logo.svg)]()
-
 Kaggle dataset: https://www.kaggle.com/datasets/dimitryzub/allrecipes-all-us-recipes-by-state
