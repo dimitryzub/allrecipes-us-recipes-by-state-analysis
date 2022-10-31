@@ -43,16 +43,16 @@ Every recipes from all states has been collected.
 
 ## Tech Stack
 
-- Python. Refer to [`requriments.txt`]() for all packages.
-
-## Results
-
+- Python. Refer to [`requriments.txt`](https://github.com/dimitryzub/us-recipes-analysis-by-state/blob/85e0162f06fb9cb84a6b387b4d27ad05b0afe304/requirements.txt) for all packages.
 
 ## What more could be done 
 
-
+1. Extract individual ingridient.
+2. Properly sort stacked bar chart.
 ## Explore Yourself
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://github.com/dimitryzub/us-recipes-analysis-by-state)
 
 [![Binder](https://mybinder.org/badge_logo.svg)]()
+
+Kaggle dataset: https://www.kaggle.com/datasets/dimitryzub/allrecipes-all-us-recipes-by-state
