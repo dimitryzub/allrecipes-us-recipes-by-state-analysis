@@ -4,6 +4,18 @@ tasks:
       sudo apt-get update -y && sudo apt-get upgrade -y
       # playwright dependencies
       sudo apt-get install -y libnss3 libnspr4 libatk1.0-0 libatk-bridge2.0-0 libcups2 libdrm2 libxkbcommon0 libxcomposite1 libxdamage1 libxfixes3 libxrandr2 libgbm1 libatspi2.0-0 libwayland-client0
+  - name: Create Git Aliases
+    init: |
+      git config --global alias.co checkout
+      git config --global alias.br branch
+      git config --global alias.brr branch -m
+      git config --global alias.ci commit
+      git config --global alias.st status
+      git config --global alias.po push orgin
+      git config --global alias.f fetch
+      git config --global alias.p pull
+      git config --global alias.com checkout main
+      git config --global alias.ls ls-files
   - name: Create VirtualEnv, Install Python Dependencies
     init: |
       python -m venv virtual-env
