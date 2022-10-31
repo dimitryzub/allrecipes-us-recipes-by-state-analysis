@@ -2,6 +2,21 @@
 
 ## Key Takeaways
 
+1. Desserts category is the most popular.
+2. Avarage recipe Rating: 4, Reviews: 132.
+3. Category with the higher number of reviews is 'Bread': 7722 reviews.
+4. Arizona has higher avarage reviews: 418.
+5. Most reviewed dish
+6. Avarage cook time (preparation and cooking itself) is around 183.4 miuntes.
+    - Italian, Pork and Everyday cooking categories has the longest total cook time.
+7. Top categories with avarage highest servings: Cookies, Sauces and condiments, Everyday cooking.
+8. Wayoming has the longest avarage cook time: 159 min.
+9. Illinoins has the highest calories.
+10. Highest nutritions per category:
+    - Calories: Everyday Cooking (2057g)
+    - Fat: Meat and Poultry (170g)
+    - Carbs: Mini Foods (177g)
+    - Protein: Seafood (118g)
 
 ## Project Goals (Questions)
 
